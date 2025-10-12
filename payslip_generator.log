@@ -1,0 +1,696 @@
+2025-09-17 19:44:30,130 [INFO] Using fallback font: Helvetica
+2025-09-17 19:44:30,131 [INFO] === Payslip Generator Started ===
+2025-09-17 19:46:25,122 [INFO] Loaded salary register: C:\Users\ASUS\OneDrive\Desktop\ProjectPayslip\SALARY_REG.xlsm
+2025-09-17 19:46:25,124 [ERROR] Failed for row 4 (VISHNU SARAVANAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,126 [ERROR] Failed for row 5 (DINESH KUMAR PANCHAPIKESAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,126 [ERROR] Failed for row 6 (KEETHICK VASA M)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,128 [ERROR] Failed for row 7 (MENAKA J)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,129 [ERROR] Failed for row 8 (S PRAGADEESHWARAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,130 [ERROR] Failed for row 9 (SHIVANI PRIYANGA MATHIALAHAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,131 [ERROR] Failed for row 10 (PREETHI R)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,132 [ERROR] Failed for row 11 (MUTHUKKUMARAN SUBRAMANIAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,133 [ERROR] Failed for row 12 (RAJESHWARAN T)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,134 [ERROR] Failed for row 13 (PAVITHRAN RAJENDRAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,134 [ERROR] Failed for row 14 (GOKUL VELUSAMY)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,135 [ERROR] Failed for row 15 (ILAYARAJA G)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,136 [ERROR] Failed for row 16 (PRAVEEN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,136 [ERROR] Failed for row 17 (SHAMITHA SIVASHANMUGAM)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,137 [ERROR] Failed for row 18 (HASAN BASARI A)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,138 [ERROR] Failed for row 19 (CHARU AHAMED SABIULLAH)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,138 [ERROR] Failed for row 20 (KANMANI SIVAGURUNATHAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,139 [ERROR] Failed for row 21 (MAXMI JOY SAM DAVID VIVEK)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,140 [ERROR] Failed for row 22 (MOHANAPRIYA SETHURAMAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,141 [ERROR] Failed for row 23 (MOHAMED SHUAIB MOHAMED SAFFIULLA)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,141 [ERROR] Failed for row 24 (NIVETHA PRIYA RAJENDRAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,142 [ERROR] Failed for row 25 (PARAMESWARAN THANGARAJ)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,144 [ERROR] Failed for row 26 (PRAVEEN JOHNSON ALAGARSAMY)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,145 [ERROR] Failed for row 27 (RANJITH SELVARAJ)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,146 [ERROR] Failed for row 28 (SRI GANESH  BALACHANDAR)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,147 [ERROR] Failed for row 29 (SUBASH BABU BALAKRISHNAN)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,148 [ERROR] Failed for row 30 (LAKSHMIPRABHA B)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,148 [ERROR] Failed for row 31 (YOGADHARSHINI A)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,149 [ERROR] Failed for row 32 (BALACHANTHIRAN VAITHILINGAM)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,150 [ERROR] Failed for row 33 (DINESHKUMAR R)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,151 [ERROR] Failed for row 34 (Unknown)
+Traceback (most recent call last):
+  File "C:\Projects\payslip\payslipGenerator.py", line 205, in process_file
+    pdf_bytes = draw_payslip_to_bytes(
+        {"company": company, "address": address, "month": month}, data
+    )
+  File "C:\Projects\payslip\payslipGenerator.py", line 146, in draw_payslip_to_bytes
+    margin = 12 * mm
+                  ^^
+NameError: name 'mm' is not defined
+2025-09-17 19:46:25,151 [INFO] Done. Generated 0 payslips -> C:\Users\ASUS\OneDrive\Desktop\ProjectPayslip\Payslips_August_2025_20250917_194625.zip
+2025-09-17 19:46:25,151 [INFO] === Payslip Generator Finished ===
+2025-09-17 19:49:57,291 [INFO] Using fallback font: Helvetica
+2025-09-17 19:49:57,291 [INFO] === Payslip Generator Started ===
+2025-09-17 19:50:47,368 [INFO] Loaded salary register: E:\Solveit\Automation\payslip\SALARY_REG.xlsm
+2025-09-17 19:50:47,373 [INFO] Payslip added: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-09-17 19:50:47,374 [INFO] Payslip added: Payslip_TBS0002_DINESH_KUMAR_PANCHAPIKESAN.pdf
+2025-09-17 19:50:47,375 [INFO] Payslip added: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-09-17 19:50:47,376 [INFO] Payslip added: Payslip_TBS0004_MENAKA_J.pdf
+2025-09-17 19:50:47,377 [INFO] Payslip added: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-09-17 19:50:47,378 [INFO] Payslip added: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-09-17 19:50:47,379 [INFO] Payslip added: Payslip_TBS0008_PREETHI_R.pdf
+2025-09-17 19:50:47,380 [INFO] Payslip added: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-09-17 19:50:47,381 [INFO] Payslip added: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-09-17 19:50:47,382 [INFO] Payslip added: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-09-17 19:50:47,383 [INFO] Payslip added: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-09-17 19:50:47,384 [INFO] Payslip added: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-09-17 19:50:47,385 [INFO] Payslip added: Payslip_TBS0015_PRAVEEN.pdf
+2025-09-17 19:50:47,386 [INFO] Payslip added: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-09-17 19:50:47,387 [INFO] Payslip added: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-09-17 19:50:47,388 [INFO] Payslip added: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-09-17 19:50:47,389 [INFO] Payslip added: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-09-17 19:50:47,390 [INFO] Payslip added: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-09-17 19:50:47,391 [INFO] Payslip added: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-09-17 19:50:47,392 [INFO] Payslip added: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-09-17 19:50:47,393 [INFO] Payslip added: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-09-17 19:50:47,394 [INFO] Payslip added: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-09-17 19:50:47,395 [INFO] Payslip added: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-09-17 19:50:47,396 [INFO] Payslip added: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-09-17 19:50:47,396 [INFO] Payslip added: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-09-17 19:50:47,397 [INFO] Payslip added: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-09-17 19:50:47,398 [INFO] Payslip added: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-09-17 19:50:47,399 [INFO] Payslip added: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-09-17 19:50:47,401 [INFO] Payslip added: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-09-17 19:50:47,402 [INFO] Payslip added: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-09-17 19:50:47,403 [INFO] Payslip added: Payslip_row34_Unknown.pdf
+2025-09-17 19:50:47,403 [INFO] Done. Generated 31 payslips -> E:\Solveit\Automation\payslip\Payslips_AU_2025_20250917_195047.zip
+2025-09-17 19:50:47,403 [INFO] === Payslip Generator Finished ===
+2025-09-17 20:02:43,523 [INFO] Using fallback font: Helvetica
+2025-09-17 20:02:43,523 [INFO] === Payslip Generator Started ===
+2025-09-17 20:03:11,828 [INFO] Loaded salary register: E:\Solveit\Automation\payslip\SALARY_REG.xlsm (rows: 31)
+2025-09-17 20:03:11,834 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-09-17 20:03:11,837 [INFO] Added to ZIP: Payslip_TBS0002_DINESH_KUMAR_PANCHAPIKESAN.pdf
+2025-09-17 20:03:11,839 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-09-17 20:03:11,841 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-09-17 20:03:11,844 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-09-17 20:03:11,847 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-09-17 20:03:11,850 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-09-17 20:03:11,852 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-09-17 20:03:11,854 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-09-17 20:03:11,856 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-09-17 20:03:11,858 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-09-17 20:03:11,860 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-09-17 20:03:11,862 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-09-17 20:03:11,865 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-09-17 20:03:11,867 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-09-17 20:03:11,869 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-09-17 20:03:11,871 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-09-17 20:03:11,873 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-09-17 20:03:11,875 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-09-17 20:03:11,877 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-09-17 20:03:11,879 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-09-17 20:03:11,881 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-09-17 20:03:11,883 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-09-17 20:03:11,886 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-09-17 20:03:11,888 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-09-17 20:03:11,890 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-09-17 20:03:11,892 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-09-17 20:03:11,895 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-09-17 20:03:11,897 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-09-17 20:03:11,899 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-09-17 20:03:11,901 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-09-17 20:03:11,901 [INFO] Done. Generated 31 payslips and saved ZIP: E:\Solveit\Automation\payslip\Payslips_AUG_2025_20250917_200311.zip
+2025-09-17 20:03:11,901 [INFO] === Payslip Generator Finished ===
+2025-09-17 20:19:48,989 [INFO] Using fallback font: Helvetica
+2025-09-17 20:19:48,990 [INFO] === Payslip Generator Started ===
+2025-09-17 20:20:14,627 [INFO] Loaded salary register: E:\Solveit\Automation\payslip\SALARY_REG.xlsm (rows: 31)
+2025-09-17 20:20:14,632 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-09-17 20:20:14,634 [INFO] Added to ZIP: Payslip_TBS0002_DINESH_KUMAR_PANCHAPIKESAN.pdf
+2025-09-17 20:20:14,637 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-09-17 20:20:14,639 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-09-17 20:20:14,641 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-09-17 20:20:14,643 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-09-17 20:20:14,646 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-09-17 20:20:14,648 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-09-17 20:20:14,650 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-09-17 20:20:14,652 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-09-17 20:20:14,654 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-09-17 20:20:14,656 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-09-17 20:20:14,658 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-09-17 20:20:14,660 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-09-17 20:20:14,662 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-09-17 20:20:14,665 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-09-17 20:20:14,667 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-09-17 20:20:14,669 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-09-17 20:20:14,671 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-09-17 20:20:14,673 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-09-17 20:20:14,676 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-09-17 20:20:14,678 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-09-17 20:20:14,680 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-09-17 20:20:14,682 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-09-17 20:20:14,684 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-09-17 20:20:14,686 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-09-17 20:20:14,689 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-09-17 20:20:14,691 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-09-17 20:20:14,693 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-09-17 20:20:14,696 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-09-17 20:20:14,698 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-09-17 20:20:14,698 [INFO] Done. Generated 31 payslips and saved ZIP: E:\Solveit\Automation\payslip\Payslips_AUg_2025_20250917_202014.zip
+2025-09-17 20:20:14,698 [INFO] === Payslip Generator Finished ===
+2025-09-17 20:23:11,739 [INFO] Using fallback font: Helvetica
+2025-09-17 20:23:11,739 [INFO] === Payslip Generator Started ===
+2025-09-17 20:24:01,865 [INFO] Loaded salary register: E:\Solveit\Automation\payslip\SALARY_REG.xlsm (rows: 31)
+2025-09-17 20:24:01,875 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-09-17 20:24:01,878 [INFO] Added to ZIP: Payslip_TBS0002_DINESH_KUMAR_PANCHAPIKESAN.pdf
+2025-09-17 20:24:01,880 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-09-17 20:24:01,883 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-09-17 20:24:01,885 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-09-17 20:24:01,887 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-09-17 20:24:01,889 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-09-17 20:24:01,892 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-09-17 20:24:01,894 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-09-17 20:24:01,896 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-09-17 20:24:01,898 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-09-17 20:24:01,901 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-09-17 20:24:01,903 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-09-17 20:24:01,905 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-09-17 20:24:01,908 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-09-17 20:24:01,910 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-09-17 20:24:01,912 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-09-17 20:24:01,914 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-09-17 20:24:01,916 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-09-17 20:24:01,918 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-09-17 20:24:01,921 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-09-17 20:24:01,923 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-09-17 20:24:01,925 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-09-17 20:24:01,927 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-09-17 20:24:01,930 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-09-17 20:24:01,932 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-09-17 20:24:01,934 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-09-17 20:24:01,936 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-09-17 20:24:01,938 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-09-17 20:24:01,941 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-09-17 20:24:01,943 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-09-17 20:24:01,943 [INFO] Done. Generated 31 payslips and saved ZIP: E:\Solveit\Automation\payslip\Payslips_August_2025_20250917_202401.zip
+2025-09-17 20:24:01,943 [INFO] === Payslip Generator Finished ===
+2025-10-06 23:14:39,658 [INFO] Using fallback font: Helvetica
+2025-10-06 23:14:39,658 [INFO] === Payslip Generator Started ===
+2025-10-06 23:16:02,332 [INFO] Using fallback font: Helvetica
+2025-10-06 23:16:02,333 [INFO] === Payslip Generator Started ===
+2025-10-06 23:19:19,660 [INFO] Using fallback font: Helvetica
+2025-10-06 23:19:19,660 [INFO] === Payslip Generator Started ===
+2025-10-06 23:20:53,732 [INFO] Loaded salary register: E:\Solveit\Automation\payslip\SALARY_REG_SEP_Rev.xlsx (rows: 31)
+2025-10-06 23:20:53,740 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-10-06 23:20:53,743 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-10-06 23:20:53,746 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-10-06 23:20:53,748 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-10-06 23:20:53,751 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-10-06 23:20:53,754 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-10-06 23:20:53,756 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-10-06 23:20:53,759 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-10-06 23:20:53,763 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-10-06 23:20:53,766 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-10-06 23:20:53,769 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-10-06 23:20:53,772 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-10-06 23:20:53,775 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-10-06 23:20:53,777 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-10-06 23:20:53,780 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-10-06 23:20:53,782 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-10-06 23:20:53,785 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-10-06 23:20:53,788 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-10-06 23:20:53,791 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-10-06 23:20:53,793 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-10-06 23:20:53,796 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-10-06 23:20:53,799 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-10-06 23:20:53,801 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-10-06 23:20:53,804 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-10-06 23:20:53,807 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-10-06 23:20:53,809 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-10-06 23:20:53,812 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-10-06 23:20:53,814 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-10-06 23:20:53,817 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-10-06 23:20:53,820 [INFO] Added to ZIP: Payslip_TBS0034_VIRGINIA_MARY_JAYARAJ.pdf
+2025-10-06 23:20:53,822 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-10-06 23:20:53,823 [INFO] Done. Generated 31 payslips and saved ZIP: E:\Solveit\Automation\payslip\Payslips_fd_20251006_232053.zip
+2025-10-06 23:20:53,823 [INFO] === Payslip Generator Finished ===
+2025-10-06 23:32:04,137 [INFO] Using fallback font: Helvetica
+2025-10-06 23:32:04,146 [INFO] === Payslip Generator Started ===
+2025-10-06 23:32:04,147 [INFO] Company: AASAI FOODS, Month: 2025-09, Location: cscs
+2025-10-06 23:32:04,147 [INFO] Salary file: C:\Users\ASUS\AppData\Local\Temp\tmp6gyuwrhf\SALARY_REG_SEP_Rev.xlsx
+2025-10-06 23:32:04,335 [INFO] Loaded salary register: C:\Users\ASUS\AppData\Local\Temp\tmp6gyuwrhf\SALARY_REG_SEP_Rev.xlsx (rows: 31)
+2025-10-06 23:32:04,340 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-10-06 23:32:04,343 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-10-06 23:32:04,345 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-10-06 23:32:04,349 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-10-06 23:32:04,351 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-10-06 23:32:04,354 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-10-06 23:32:04,357 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-10-06 23:32:04,359 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-10-06 23:32:04,362 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-10-06 23:32:04,364 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-10-06 23:32:04,367 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-10-06 23:32:04,370 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-10-06 23:32:04,373 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-10-06 23:32:04,375 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-10-06 23:32:04,378 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-10-06 23:32:04,381 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-10-06 23:32:04,383 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-10-06 23:32:04,386 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-10-06 23:32:04,388 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-10-06 23:32:04,391 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-10-06 23:32:04,394 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-10-06 23:32:04,397 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-10-06 23:32:04,400 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-10-06 23:32:04,402 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-10-06 23:32:04,405 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-10-06 23:32:04,407 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-10-06 23:32:04,410 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-10-06 23:32:04,412 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-10-06 23:32:04,415 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-10-06 23:32:04,418 [INFO] Added to ZIP: Payslip_TBS0034_VIRGINIA_MARY_JAYARAJ.pdf
+2025-10-06 23:32:04,421 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-10-06 23:32:04,421 [INFO] Done. Generated 31 payslips and saved ZIP: C:\Users\ASUS\AppData\Local\Temp\tmp6gyuwrhf\Payslips_202509_20251006_233204.zip
+2025-10-06 23:32:04,421 [INFO] === Payslip Generator Finished ===
+2025-10-06 23:41:47,046 [INFO] Using fallback font: Helvetica
+2025-10-06 23:41:47,048 [INFO] === Payslip Generator Started ===
+2025-10-06 23:41:47,049 [INFO] Company: test 1, Month: 2025-09, Location: TRY
+2025-10-06 23:41:47,049 [INFO] Salary file: C:\Users\ASUS\AppData\Local\Temp\tmpznwtwl38\SALARY_REG_SEP_Rev.xlsx
+2025-10-06 23:41:47,219 [INFO] Loaded salary register: C:\Users\ASUS\AppData\Local\Temp\tmpznwtwl38\SALARY_REG_SEP_Rev.xlsx (rows: 31)
+2025-10-06 23:41:47,223 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-10-06 23:41:47,226 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-10-06 23:41:47,228 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-10-06 23:41:47,230 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-10-06 23:41:47,233 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-10-06 23:41:47,235 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-10-06 23:41:47,237 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-10-06 23:41:47,239 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-10-06 23:41:47,242 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-10-06 23:41:47,244 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-10-06 23:41:47,256 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-10-06 23:41:47,258 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-10-06 23:41:47,261 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-10-06 23:41:47,263 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-10-06 23:41:47,266 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-10-06 23:41:47,270 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-10-06 23:41:47,272 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-10-06 23:41:47,274 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-10-06 23:41:47,276 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-10-06 23:41:47,279 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-10-06 23:41:47,281 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-10-06 23:41:47,283 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-10-06 23:41:47,286 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-10-06 23:41:47,288 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-10-06 23:41:47,290 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-10-06 23:41:47,293 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-10-06 23:41:47,295 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-10-06 23:41:47,297 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-10-06 23:41:47,300 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-10-06 23:41:47,302 [INFO] Added to ZIP: Payslip_TBS0034_VIRGINIA_MARY_JAYARAJ.pdf
+2025-10-06 23:41:47,304 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-10-06 23:41:47,304 [INFO] Done. Generated 31 payslips and saved ZIP: C:\Users\ASUS\AppData\Local\Temp\tmpznwtwl38\Payslips_202509_20251006_234147.zip
+2025-10-06 23:41:47,304 [INFO] === Payslip Generator Finished ===
+2025-10-06 23:45:13,095 [INFO] Using fallback font: Helvetica
+2025-10-06 23:45:13,098 [INFO] === Payslip Generator Started ===
+2025-10-06 23:45:13,099 [INFO] Company: test 2, Month: 2025-09, Location: TRY
+2025-10-06 23:45:13,099 [INFO] Salary file: C:\Users\ASUS\AppData\Local\Temp\tmpib35bs5j\SALARY_REG_SEP_Rev.xlsx
+2025-10-06 23:45:13,281 [INFO] Loaded salary register: C:\Users\ASUS\AppData\Local\Temp\tmpib35bs5j\SALARY_REG_SEP_Rev.xlsx (rows: 31)
+2025-10-06 23:45:13,286 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-10-06 23:45:13,288 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-10-06 23:45:13,291 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-10-06 23:45:13,293 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-10-06 23:45:13,296 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-10-06 23:45:13,298 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-10-06 23:45:13,300 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-10-06 23:45:13,302 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-10-06 23:45:13,305 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-10-06 23:45:13,307 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-10-06 23:45:13,310 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-10-06 23:45:13,312 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-10-06 23:45:13,314 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-10-06 23:45:13,316 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-10-06 23:45:13,319 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-10-06 23:45:13,321 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-10-06 23:45:13,323 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-10-06 23:45:13,326 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-10-06 23:45:13,328 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-10-06 23:45:13,331 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-10-06 23:45:13,333 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-10-06 23:45:13,335 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-10-06 23:45:13,338 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-10-06 23:45:13,340 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-10-06 23:45:13,342 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-10-06 23:45:13,345 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-10-06 23:45:13,347 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-10-06 23:45:13,349 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-10-06 23:45:13,351 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-10-06 23:45:13,354 [INFO] Added to ZIP: Payslip_TBS0034_VIRGINIA_MARY_JAYARAJ.pdf
+2025-10-06 23:45:13,356 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-10-06 23:45:13,356 [INFO] Done. Generated 31 payslips and saved ZIP: C:\Users\ASUS\AppData\Local\Temp\tmpib35bs5j\Payslips_202509_20251006_234513.zip
+2025-10-06 23:45:13,356 [INFO] === Payslip Generator Finished ===
+2025-10-06 23:57:17,678 [INFO] Using fallback font: Helvetica
+2025-10-06 23:57:17,680 [INFO] === Payslip Generator Started ===
+2025-10-06 23:57:17,680 [INFO] Company: test 3, Month: 2025-09, Location: TRY
+2025-10-06 23:57:17,680 [INFO] Salary file: C:\Users\ASUS\AppData\Local\Temp\tmp8b51135t\SALARY_REG_SEP_Rev.xlsx
+2025-10-06 23:57:17,850 [INFO] Loaded salary register: C:\Users\ASUS\AppData\Local\Temp\tmp8b51135t\SALARY_REG_SEP_Rev.xlsx (rows: 31)
+2025-10-06 23:57:17,855 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-10-06 23:57:17,857 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-10-06 23:57:17,860 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-10-06 23:57:17,862 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-10-06 23:57:17,864 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-10-06 23:57:17,867 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-10-06 23:57:17,869 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-10-06 23:57:17,871 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-10-06 23:57:17,874 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-10-06 23:57:17,876 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-10-06 23:57:17,878 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-10-06 23:57:17,881 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-10-06 23:57:17,883 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-10-06 23:57:17,885 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-10-06 23:57:17,887 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-10-06 23:57:17,890 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-10-06 23:57:17,892 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-10-06 23:57:17,894 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-10-06 23:57:17,897 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-10-06 23:57:17,899 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-10-06 23:57:17,901 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-10-06 23:57:17,904 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-10-06 23:57:17,906 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-10-06 23:57:17,908 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-10-06 23:57:17,910 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-10-06 23:57:17,913 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-10-06 23:57:17,915 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-10-06 23:57:17,917 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-10-06 23:57:17,920 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-10-06 23:57:17,922 [INFO] Added to ZIP: Payslip_TBS0034_VIRGINIA_MARY_JAYARAJ.pdf
+2025-10-06 23:57:17,924 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-10-06 23:57:17,924 [INFO] Done. Generated 31 payslips and saved ZIP: C:\Users\ASUS\AppData\Local\Temp\tmp8b51135t\Payslips_202509_20251006_235717.zip
+2025-10-06 23:57:17,924 [INFO] === Payslip Generator Finished ===
+2025-10-07 00:05:32,861 [INFO] Using fallback font: Helvetica
+2025-10-07 00:05:32,863 [INFO] === Payslip Generator Started ===
+2025-10-07 00:05:32,864 [INFO] Company: Single 1, Month: 2025-09, Location: TRy
+2025-10-07 00:05:32,864 [INFO] Salary file: C:\Users\ASUS\AppData\Local\Temp\tmpna09k9qi\SALARY_REG_SEP_Rev.xlsx
+2025-10-07 00:05:33,038 [INFO] Loaded salary register: C:\Users\ASUS\AppData\Local\Temp\tmpna09k9qi\SALARY_REG_SEP_Rev.xlsx (rows: 31)
+2025-10-07 00:05:33,043 [INFO] Added to ZIP: Payslip_TBS0001_VISHNU_SARAVANAN.pdf
+2025-10-07 00:05:33,045 [INFO] Added to ZIP: Payslip_TBS0003_KEETHICK_VASA_M.pdf
+2025-10-07 00:05:33,048 [INFO] Added to ZIP: Payslip_TBS0004_MENAKA_J.pdf
+2025-10-07 00:05:33,050 [INFO] Added to ZIP: Payslip_TBS0006_S_PRAGADEESHWARAN.pdf
+2025-10-07 00:05:33,052 [INFO] Added to ZIP: Payslip_TBS0007_SHIVANI_PRIYANGA_MATHIALAHAN.pdf
+2025-10-07 00:05:33,055 [INFO] Added to ZIP: Payslip_TBS0008_PREETHI_R.pdf
+2025-10-07 00:05:33,057 [INFO] Added to ZIP: Payslip_TBS0009_MUTHUKKUMARAN_SUBRAMANIAN.pdf
+2025-10-07 00:05:33,059 [INFO] Added to ZIP: Payslip_TBS0010_RAJESHWARAN_T.pdf
+2025-10-07 00:05:33,061 [INFO] Added to ZIP: Payslip_TBS0012_PAVITHRAN_RAJENDRAN.pdf
+2025-10-07 00:05:33,064 [INFO] Added to ZIP: Payslip_TBS0013_GOKUL_VELUSAMY.pdf
+2025-10-07 00:05:33,066 [INFO] Added to ZIP: Payslip_TBS0014_ILAYARAJA_G.pdf
+2025-10-07 00:05:33,068 [INFO] Added to ZIP: Payslip_TBS0015_PRAVEEN.pdf
+2025-10-07 00:05:33,070 [INFO] Added to ZIP: Payslip_TBS0016_SHAMITHA_SIVASHANMUGAM.pdf
+2025-10-07 00:05:33,073 [INFO] Added to ZIP: Payslip_TBS0017_HASAN_BASARI_A.pdf
+2025-10-07 00:05:33,076 [INFO] Added to ZIP: Payslip_TBS0018_CHARU_AHAMED_SABIULLAH.pdf
+2025-10-07 00:05:33,078 [INFO] Added to ZIP: Payslip_TBS0019_KANMANI_SIVAGURUNATHAN.pdf
+2025-10-07 00:05:33,080 [INFO] Added to ZIP: Payslip_TBS0020_MAXMI_JOY_SAM_DAVID_VIVEK.pdf
+2025-10-07 00:05:33,083 [INFO] Added to ZIP: Payslip_TBS0021_MOHANAPRIYA_SETHURAMAN.pdf
+2025-10-07 00:05:33,085 [INFO] Added to ZIP: Payslip_TBS0023_MOHAMED_SHUAIB_MOHAMED_SAFFIULLA.pdf
+2025-10-07 00:05:33,087 [INFO] Added to ZIP: Payslip_TBS0024_NIVETHA_PRIYA_RAJENDRAN.pdf
+2025-10-07 00:05:33,090 [INFO] Added to ZIP: Payslip_TBS0025_PARAMESWARAN_THANGARAJ.pdf
+2025-10-07 00:05:33,092 [INFO] Added to ZIP: Payslip_TBS0026_PRAVEEN_JOHNSON_ALAGARSAMY.pdf
+2025-10-07 00:05:33,095 [INFO] Added to ZIP: Payslip_TBS0027_RANJITH_SELVARAJ.pdf
+2025-10-07 00:05:33,097 [INFO] Added to ZIP: Payslip_TBS0028_SRI_GANESH_BALACHANDAR.pdf
+2025-10-07 00:05:33,099 [INFO] Added to ZIP: Payslip_TBS0029_SUBASH_BABU_BALAKRISHNAN.pdf
+2025-10-07 00:05:33,101 [INFO] Added to ZIP: Payslip_TBS0030_LAKSHMIPRABHA_B.pdf
+2025-10-07 00:05:33,103 [INFO] Added to ZIP: Payslip_TBS0031_YOGADHARSHINI_A.pdf
+2025-10-07 00:05:33,106 [INFO] Added to ZIP: Payslip_TBS0032_BALACHANTHIRAN_VAITHILINGAM.pdf
+2025-10-07 00:05:33,108 [INFO] Added to ZIP: Payslip_TBS0033_DINESHKUMAR_R.pdf
+2025-10-07 00:05:33,110 [INFO] Added to ZIP: Payslip_TBS0034_VIRGINIA_MARY_JAYARAJ.pdf
+2025-10-07 00:05:33,112 [INFO] Added to ZIP: Payslip_row34_Unknown.pdf
+2025-10-07 00:05:33,113 [INFO] Done. Generated 31 payslips and saved ZIP: C:\Users\ASUS\AppData\Local\Temp\tmpna09k9qi\Payslips_202509_20251007_000533.zip
+2025-10-07 00:05:33,113 [INFO] === Payslip Generator Finished ===
+2025-10-07 00:16:57,332 [INFO] Using fallback font: Helvetica
+2025-10-07 00:16:58,709 [INFO] 127.0.0.1 - - [07/Oct/2025 00:16:58] "GET / HTTP/1.1" 200 -
+2025-10-07 00:16:58,720 [INFO] 127.0.0.1 - - [07/Oct/2025 00:16:58] "GET /static/js/main.f582aace.js HTTP/1.1" 200 -
+2025-10-07 00:16:58,721 [INFO] 127.0.0.1 - - [07/Oct/2025 00:16:58] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 -
+2025-10-07 00:17:00,195 [INFO] 127.0.0.1 - - [07/Oct/2025 00:17:00] "GET /manifest.json HTTP/1.1" 200 -
+2025-10-07 00:17:00,196 [INFO] 127.0.0.1 - - [07/Oct/2025 00:17:00] "GET /favicon.ico HTTP/1.1" 200 -
+2025-10-07 00:17:00,214 [INFO] 127.0.0.1 - - [07/Oct/2025 00:17:00] "GET /logo192.png HTTP/1.1" 200 -

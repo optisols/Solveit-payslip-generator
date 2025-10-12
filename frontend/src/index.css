@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small helpers */
+html, body, #root { height: 100%; }
+body { @apply bg-gradient-to-b from-white to-sky-50 antialiased; }
+.card-shadow { box-shadow: 0 10px 30px rgba(3,7,18,0.06); }
