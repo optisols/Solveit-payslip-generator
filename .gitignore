@@ -1,0 +1,31 @@
+﻿# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+*.egg-info
+*.sqlite3
+
+# Node
+node_modules/
+dist/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Excel macro workbooks (optional - remove if you want to version .xlsm)
+*.xlsm
