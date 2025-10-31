@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 export default function PayslipLandingPage() {
   const [form, setForm] = useState({
-    companyName: "SOLVEIT",
+    companyName: "",
     companyAddress: "",
     payslipMonth: "",
     location: "",
@@ -36,10 +36,30 @@ export default function PayslipLandingPage() {
     setStatus("Uploading and generating payslips...");
     setProgress(1);
 
+    const rawMonth = form.payslipMonth || ""; // expected "YYYY-MM" from <input type="month">
+
+    // Robust conversion using UTC to avoid timezone shifts
+    let formattedMonth = rawMonth;
+    if (rawMonth) {
+      try {
+        const parts = rawMonth.split("-");
+        const year = Number(parts[0]);
+        const monthIndex = Number(parts[1]) - 1; // JS months are 0-based
+        // Create a UTC date so local timezone can't shift it to previous month
+        const dt = new Date(Date.UTC(year, monthIndex, 1));
+        formattedMonth = dt.toLocaleString("en-US", { month: "long", year: "numeric" }); // "October 2025"
+      } catch (err) {
+        // fallback to rawMonth
+        formattedMonth = rawMonth;
+      }
+    }
+
     const fd = new FormData();
     fd.append("company_name", form.companyName);
     fd.append("company_address", form.companyAddress);
-    fd.append("payslip_month", form.payslipMonth);
+    // send both raw and formatted (backend can use formatted directly)
+    fd.append("payslip_month", formattedMonth);         // e.g. "October 2025"
+    fd.append("payslip_month_raw", rawMonth);           // e.g. "2025-10"
     fd.append("location", form.location);
     fd.append("salary_file", form.salaryRegisterFile);
 
@@ -57,6 +77,7 @@ export default function PayslipLandingPage() {
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
+        const safeMonth = formattedMonth.replace(/\s+/g, "_").replace(/[^A-Za-z0-9_\-]/g, "");
         a.download = `Payslips_${form.payslipMonth || "month"}.zip`;
         a.click();
         setStatus("Payslips generated successfully and downloaded.");

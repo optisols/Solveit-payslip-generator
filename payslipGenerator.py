@@ -90,7 +90,7 @@ COL_CANDIDATES = {
     "TravelAllowance": ["Travel Allowance", "TravelAllowance"],
     "HRA": ["House Rent Allowance", "HRA"],
     "NH_FH": ["NH/FH", "NH_FH"],
-    "LeaveWages": ["Leave Wages", "LeaveWages"],
+    "Reimbursement": ["Reimbursement", "Reimbursement"],
     "EPF": ["EPF"],
     "ESI": ["ESI"],
     "PT": ["PT"],
@@ -340,7 +340,7 @@ def draw_payslip_to_bytes(header_info, data):
         ("Travel Allowance", data.get("TravelAllowance", 0.0)),
         ("House Rent Allowance", data.get("HRA", 0.0)),
         ("NH/FH", data.get("NH_FH", 0.0)),
-        ("Leave Wages", data.get("LeaveWages", 0.0)),
+        ("Reimbursement", data.get("Reimbursement", 0.0)),
     ]
     for label, val in earnings_rows:
         c.drawString(left_col_x, y_row, label)
@@ -348,7 +348,7 @@ def draw_payslip_to_bytes(header_info, data):
         y_row -= 14
 
     # Gross
-    gross = sum([float(data.get(k, 0) or 0) for k in ["Basic","SpecialAllowance","TravelAllowance","HRA","NH_FH","LeaveWages"]])
+    gross = sum([float(data.get(k, 0) or 0) for k in ["Basic","SpecialAllowance","TravelAllowance","HRA","NH_FH","Reimbursement"]])
     c.setFont(FONT_NAME, 10)
     c.drawString(left_col_x, ed_top - ed_h + 12, "Gross Earnings")
     c.drawRightString(amt_x, ed_top - ed_h + 12, moneyfmt(gross))
@@ -452,7 +452,7 @@ def process_file(file_path, company, address, month, location):
         for key, colname in mapping.items():
             data[key] = safe_val(row, colname, "")
         #normalize numarics
-        for n in ["Basic","SpecialAllowance","TravelAllowance","HRA","NH_FH","LeaveWages",
+        for n in ["Basic","SpecialAllowance","TravelAllowance","HRA","NH_FH","Reimbursement",
                   "EPF","ESI","PT","TDS","Adv_Other","LabourWelfareFund"]:
             data[n] = to_number(data.get(n, 0))
         #Date normalization
